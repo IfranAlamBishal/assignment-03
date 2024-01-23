@@ -23,6 +23,12 @@
         .font-color{
             color: #131318;
         }
+        .black-bg{
+          background: #131318;
+        }
+        .secondary-text-color{
+          color: rgba(255, 255, 255, 0.60);
+        }
     </style>
 
 </head>
@@ -99,22 +105,81 @@
 
     <main>
         <!-- Professioal club -->
-        <section class="my-10 lg:my-16 ">
-            <h3 class="text-4xl font-extrabold text-center mb-6">Professional Hockeys Club</h3>
-            <p class="font-medium text-[rgba(19, 19, 24, 0.60)] text-center lg:w-1/2 mx-auto"><span class="theme-color">Real</span> hockey club, steeped in rich tradition and history, serves as a powerhouse in the world of ice hockey. Renowned for its skilled athletes and dedicated coaching staff, the club consistently competes at the highest level, vying for championships and leaving an indelible mark on the sport. With a loyal fan base and state-of-the-art facilities, the professional hockey club embodies the passion, intensity, and excellence synonymous with the elite echelons of professional sports.
+        <section class="my-10 lg:my-12 text-center mx-auto py-5 px-8 lg:px-20 lg:py-8">
+          <hr class="my-10 w-10/12 mx-auto">
+            <h3 class="text-4xl font-extrabold text-center mb-6 ">Professional Hockeys Club</h3>
+            <p class="font-medium text-[rgba(19, 19, 24, 0.60)] text-center lg:w-1/2 mx-auto mb-6"><span class="theme-color">Real</span> hockey club, steeped in rich tradition and history, serves as a powerhouse in the world of hockey. Renowned for its skilled athletes and dedicated coaching staff, the club consistently competes at the highest level, vying for championships and leaving an indelible mark on the sport. With a loyal fan base and state-of-the-art facilities,<span class="theme-color">Real</span> Hockey club embodies the passion, intensity, and excellence synonymous with the elite echelons of professional sports.</p>
+            <hr class="my-6 w-10/12 mx-auto">
 
-
-
-
-            </p>
-            <div>
-
+            <!-- States -->
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="flex-1">
+                    <div class="radial-progress text-[#FF4240] rotate-90" style="--value:87;" role="progressbar "><span class="font-color -rotate-90 text-2xl font-extrabold">87%</span>
+                    </div>
+                    <h4 class="mt-6 text-xl font-semibold font-color">Prayer Facility</h4>
+                    <p class="mt-4 text-base font-normal text-[rgba(19, 19, 24, 0.60)]">Embracing diversity, we ensure everyone feels welcome, offering a quiet space for reflection and prayer within our vibrant sporting community.</p>
+                </div>
+                <div class="flex-1">
+                    <div class="radial-progress text-[#49D293] rotate-90" style="--value:95;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">95%</span>
+                    </div>
+                    <h4 class="mt-6 text-xl font-semibold font-color">Experienced Coach</h4>
+                    <p class="mt-4 text-base font-normal text-[rgba(19, 19, 24, 0.60)]">Our dedicated coach is committed to nurturing talent, fostering teamwork, and driving our players towards excellence on and off the feild.</p>
+                </div>
+                <div class="flex-1">
+                    <div class="radial-progress text-yellow-400 rotate-90" style="--value:90;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">90%</span>
+                    </div>
+                    <h4 class="mt-6 text-xl font-semibold font-color">Senior Player</h4>
+                    <p class="mt-4 text-base font-normal text-[rgba(19, 19, 24, 0.60)]">Leading by example, our senior player brings unmatched experience and skill, enhancing the essence of teamwork and excellence within our hockey club.</p>
+                </div>
+                <div class="flex-1">
+                    <div class="radial-progress text-[#4c8df1] rotate-90" style="--value:80;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">80%</span>
+                    </div>
+                    <h4 class="mt-6 text-xl font-semibold font-color">Training Ground</h4>
+                    <p class="mt-4 text-base font-normal text-[rgba(19, 19, 24, 0.60)]">At our cutting-edge training ground, our hockey club cultivates champions by providing a state-of-the-art facility where skill, strategy, and teamwork converge for unparalleled player development.</p>
+                </div>
             </div>
         </section>
+        <hr class="my-10 w-10/12 mx-auto">
     </main>
-
-    <footer>
-
+      <!-- Footer -->
+    <footer class="footer p-10 black-bg text-white text-base-content lg:py-28 lg:px-32 lg:gap-40 text-center lg:text-left">
+      <aside>
+        <h3 class="text-3xl font-extrabold mb-4 mx-auto lg:mx-0">Get In Touch</h3>
+        <p class="secondary-text-color font-medium test-base mb-6">Connect with us and join the thrilling world of hockey! Whether you're a seasoned player or a passionate fan, getting in touch opens the door to a community united by the love of the game. Reach out today and be part of the excitement.</p>
+        <div class="flex gap-4 mx-auto lg:mx-0">
+          <img class="h-7 w-7" src="Images/letter.png" alt="email-icon">
+          <small class="mb-4 text-base font-medium secondary-text-color">hockeys@support.com</small>
+        </div>
+        <div class="flex gap-4 mx-auto lg:mx-0">
+          <img class="h-6 w-6" src="Images/phone-call_8680859.png" alt="telephone-icon">
+          <small class="mb-4 text-base font-medium secondary-text-color">(+62) 123-321-543</small>
+        </div>
+      </aside> 
+      <div class="grid-flow-col gap-5 lg:gap-40 text-center lg:text-left mx-auto">
+      <nav class="">
+        <header class="footer-title text-white opacity-100 text-lg mb-3.5">Company</header> 
+        <a class="link link-hover "><span class="text-base font-medium opacity-60 block pb-2">About us</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block pb-2">Leadership</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block pb-2">Careers</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block pb-2">News & Article</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block pb-2">Legal Notice</span></a>
+      </nav> 
+      <nav>
+        <header class="footer-title text-white opacity-100 text-lg mb-3.5">Support</header> 
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block pb-2">Help Center</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block pb-2">FAQ</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block pb-2">Ticket Support</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block pb-2">Contact Us</span></a>
+      </nav> 
+    </div>
+      <nav class="text-center lg:text-left mx-auto lg:mx-0">
+        <header class="footer-title text-white opacity-100 text-lg">Services</header> 
+        <a class="link link-hover"><span class="text-base font-medium opacity-60 block">Academy</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60">Group Lesson</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60">Private Lesson</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60">Hockeys for kids</span></a>
+        <a class="link link-hover"><span class="text-base font-medium opacity-60">Hockeys for Adult</span></a>
+      </nav>
     </footer>
     
 </body>
