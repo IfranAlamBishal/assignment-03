@@ -27,10 +27,16 @@
           background: #131318;
         }
         .secondary-text-color{
+          color: rgba(19, 19, 24, 0.60);
+        }
+        .footer-text-color{
           color: rgba(255, 255, 255, 0.60);
         }
         .hr-color{
           background: rgba(19, 19, 24, 0.20);
+        }
+        .border-rgba{
+          border-color: rgba(19, 19, 24, 0.10);
         }
     </style>
 
@@ -120,25 +126,25 @@
             <!-- States -->
             <div class="flex flex-col lg:flex-row gap-8">
                 <div class="flex-1">
-                    <div class="radial-progress text-[#FF4240] rotate-90" style="--value:87;" role="progressbar "><span class="font-color -rotate-90 text-2xl font-extrabold">87%</span>
+                    <div class="radial-progress text-[#FF4240] rotate-90" style="--value:82;" role="progressbar "><span class="font-color -rotate-90 text-2xl font-extrabold">87%</span>
                     </div>
                     <h4 class="mt-6 text-xl font-semibold font-color">Prayer Facility</h4>
                     <p class="mt-4 text-base font-normal text-[rgba(19, 19, 24, 0.60)]">Embracing diversity, we ensure everyone feels welcome, offering a quiet space for reflection and prayer within our vibrant sporting community.</p>
                 </div>
                 <div class="flex-1">
-                    <div class="radial-progress text-[#49D293] rotate-90" style="--value:95;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">95%</span>
+                    <div class="radial-progress text-[#49D293] rotate-90" style="--value:90;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">95%</span>
                     </div>
                     <h4 class="mt-6 text-xl font-semibold font-color">Experienced Coach</h4>
                     <p class="mt-4 text-base font-normal text-[rgba(19, 19, 24, 0.60)]">Our dedicated coach is committed to nurturing talent, fostering teamwork, and driving our players towards excellence on and off the feild.</p>
                 </div>
                 <div class="flex-1">
-                    <div class="radial-progress text-yellow-400 rotate-90" style="--value:90;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">90%</span>
+                    <div class="radial-progress text-yellow-400 rotate-90" style="--value:85;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">90%</span>
                     </div>
                     <h4 class="mt-6 text-xl font-semibold font-color">Senior Player</h4>
                     <p class="mt-4 text-base font-normal text-[rgba(19, 19, 24, 0.60)]">Leading by example, our senior player brings unmatched experience and skill, enhancing the essence of teamwork and excellence within our hockey club.</p>
                 </div>
                 <div class="flex-1">
-                    <div class="radial-progress text-[#4c8df1] rotate-90" style="--value:80;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">80%</span>
+                    <div class="radial-progress text-[#4c8df1] rotate-90" style="--value:75;" role="progressbar"><span class="font-color -rotate-90 text-2xl font-extrabold">80%</span>
                     </div>
                     <h4 class="mt-6 text-xl font-semibold font-color">Training Ground</h4>
                     <p class="mt-4 text-base font-normal text-[rgba(19, 19, 24, 0.60)]">At our cutting-edge training ground, our hockey club cultivates champions by providing a state-of-the-art facility where skill, strategy, and teamwork converge for unparalleled player development.</p>
@@ -148,7 +154,7 @@
 
         <hr class="hr-color my-8 w-10/12 mx-auto"> 
         <!-- Program Section -->
-        <section class="my-3 lg:my-12">
+        <section class="my-3 lg:my-14">
           <h3 class="text-4xl font-extrabold text-center mb-6 ">Program Sections</h3>
             <p class="font-medium text-[rgba(19, 19, 24, 0.60)] text-center lg:w-1/2 mx-auto mb-6 px-8">Unlock your full potential with our diverse program sections at the hockey club, tailored to cater to every player's skill level and passion. From skill-building workshops to strategic drills, our comprehensive program sections ensure a holistic development journey</p>
 
@@ -190,21 +196,57 @@
 
         <hr class="hr-color my-8 w-10/12 mx-auto">
         <!-- Products -->
-        <section></section>
+        <section>
+          <h3>Our New Products</h3>
+          <p class="secondary-text-color">Discover innovation and quality with our latest products, embodying the essence of excellence and meeting the evolving needs of our fans.</p>
+        <hr class="hr-color my-8 w-10/12 mx-auto">
+
+          <div class="">
+            <div class="hero w-80 lg:w-[570px] border border-rgba rounded-2xl p-5">
+              <div class="hero-content flex-col lg:flex-row gap-5">
+                <img src="Images/5.png" class="w-72 lg:w-44 rounded-lg" />
+                <div class="space-y-3">
+                  <div class="flex gap-4">
+                    <div class="flex gap-2">
+                      <img src="Images/star.png" alt="" class="w-6 h-6">
+                      <h5 class="text-base font-medium secondary-text-color">5.0</h5>
+                    </div>
+                    <div class="flex gap-2">
+                      <img src="Images/visible.png" alt="" class="w-6 h-6">
+                      <h5 class="text-base font-medium secondary-text-color">20</h5>
+                    </div>
+                    <div class="flex gap-2">
+                      <img src="Images/heart.png" alt="" class="w-6 h-6">
+                      <h5 class="text-base font-medium secondary-text-color">200</h5>
+                    </div>
+                  </div>
+                  <h1 class="text-xl font-extrabold">World Cup Jackets</h1>
+                  <p class="text-base font-medium secondary-text-color">Check out our latest collection for this World Cup</p>
+                  <div class="flex flex-col lg:flex-row gap-3">
+                    <h4 class="text-lg font-extrabold theme-color">Price - $22.00</h4>
+                    <div class="flex gap-1">
+                    <img class="w-6 h-6" src="Images/shopping-cart.png" alt="">
+                    <h5 class="text-base font-medium secondary-text-color">Delivery Fee : Free</h5>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
       
         <!-- Footer -->
     <footer class="footer p-10 black-bg text-white text-base-content lg:py-28 lg:px-32 lg:gap-40 text-center lg:text-left">
       <aside>
         <h3 class="text-3xl font-extrabold mb-4 mx-auto lg:mx-0">Get In Touch</h3>
-        <p class="secondary-text-color font-medium test-base mb-6">Connect with us and join the thrilling world of hockey! Whether you're a seasoned player or a passionate fan, getting in touch opens the door to a community united by the love of the game. Reach out today and be part of the excitement.</p>
+        <p class="footer-text-color font-medium test-base mb-6">Connect with us and join the thrilling world of hockey! Whether you're a seasoned player or a passionate fan, getting in touch opens the door to a community united by the love of the game. Reach out today and be part of the excitement.</p>
         <div class="flex gap-4 mx-auto lg:mx-0">
           <img class="h-7 w-7" src="Images/letter.png" alt="email-icon">
-          <small class="mb-4 text-base font-medium secondary-text-color">hockeys@support.com</small>
+          <small class="mb-4 text-base font-medium footer-text-color">hockeys@support.com</small>
         </div>
         <div class="flex gap-4 mx-auto lg:mx-0">
           <img class="h-6 w-6" src="Images/phone-call_8680859.png" alt="telephone-icon">
-          <small class="mb-4 text-base font-medium secondary-text-color">(+62) 123-321-543</small>
+          <small class="mb-4 text-base font-medium footer-text-color">(+62) 123-321-543</small>
         </div>
       </aside> 
       <div class="grid-flow-col gap-5 lg:gap-40 text-center lg:text-left mx-auto">
